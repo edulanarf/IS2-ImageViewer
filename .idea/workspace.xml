@@ -4,17 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb06e23-90f9-4756-afbb-f2130f83d4f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="dfb06e23-90f9-4756-afbb-f2130f83d4f9" name="Changes" comment="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/FileImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/Image.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "edulanarf"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/edulanarf/ImageViewer-V2.git",
+    "accountId": "0efaaf4b-fc24-4537-b527-cce4de97ee53"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -26,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Usuario/Desktop/Kata2 yo/ImageViewer/src/main/java/ulpgc/es/Main.java"
@@ -40,17 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733076312638</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes">
+      <option name="closed" value="true" />
+      <created>1733076575939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733076575939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ulpgc/es/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes" />
   </component>
 </project>
