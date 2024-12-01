@@ -11,6 +11,6 @@ public class NextImageCommand implements Command{
 
     @Override
     public void execute() {
-        imageDisplay.show(imageDisplay.Image().next());
+        imageDisplay.show(imageDisplay.image().next());
     }
 }

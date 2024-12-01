@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb06e23-90f9-4756-afbb-f2130f83d4f9" name="Changes" comment="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/FileImageLoader.java" afterDir="false" />
+    <list default="true" id="dfb06e23-90f9-4756-afbb-f2130f83d4f9" name="Changes" comment="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/swing/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/swing/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,12 @@
     "onboarding.tips.debug.path": "C:/Users/Usuario/Desktop/Kata2 yo/ImageViewer/src/main/java/ulpgc/es/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ulpgc.es.imageviewer.swing" />
+      <recent name="ulpgc.es.imageviewer" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,11 +76,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733076575939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior.">
+      <option name="closed" value="true" />
+      <created>1733077972943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733077972943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes" />
+    <MESSAGE value="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior." />
   </component>
 </project>
