@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb06e23-90f9-4756-afbb-f2130f83d4f9" name="Changes" comment="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior.">
+    <list default="true" id="dfb06e23-90f9-4756-afbb-f2130f83d4f9" name="Changes" comment="Creamos una clase para mostrar la imagen y un mainFrame con sus respectivos botones de alante y atrás.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/PreviousImageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/PreviousImageCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/swing/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulpgc/es/imageviewer/swing/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -84,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733077972943</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creamos una clase para mostrar la imagen y un mainFrame con sus respectivos botones de alante y atrás.">
+      <option name="closed" value="true" />
+      <created>1733078645303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733078645303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se crean dos interfaces, una para las imagenes y otra para descargar las imagenes" />
     <MESSAGE value="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crea una interfaz image Display y otra interfaz command.&#10;&#10;Se crea una clase para mostrar la siguiente imagen y otra para mostrar la anterior." />
+    <MESSAGE value="Creamos una clase para mostrar la imagen y un mainFrame con sus respectivos botones de alante y atrás." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creamos una clase para mostrar la imagen y un mainFrame con sus respectivos botones de alante y atrás." />
   </component>
 </project>

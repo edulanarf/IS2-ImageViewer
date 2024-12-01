@@ -11,6 +11,6 @@ public class PreviousImageCommand implements Command {
 
     @Override
     public void execute() {
-        imageDisplay.show(imageDisplay.Image().prev());
+        imageDisplay.show(imageDisplay.image().prev());
     }
 }

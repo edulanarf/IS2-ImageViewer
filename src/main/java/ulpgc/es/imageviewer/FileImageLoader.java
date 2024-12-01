@@ -29,12 +29,12 @@ public class FileImageLoader implements ImageLoader{
 
             @Override
             public Image next() {
-                return imageAt((i+1)%files.length);
+                return imageAt((i+1) % files.length);
             }
 
             @Override
             public Image prev() {
-                return imageAt((i-1)%files.length);
+                return imageAt((i-1+ files.length) % files.length);
             }
         };
     }

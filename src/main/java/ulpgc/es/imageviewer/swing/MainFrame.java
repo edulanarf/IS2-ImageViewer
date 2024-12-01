@@ -1,6 +1,7 @@
 package ulpgc.es.imageviewer.swing;
 
 import ulpgc.es.imageviewer.Command;
+import ulpgc.es.imageviewer.PreviousImageCommand;
 
 import javax.swing.*;
 import java.awt.*;
@@ -29,9 +30,9 @@ public class MainFrame extends JFrame {
         return panel;
     }
 
-    private Component createButton(String s) {
-        JButton button = new JButton(s);
-        button.addActionListener(e->commands.get(s).execute());
+    private Component createButton(String label) {
+        JButton button = new JButton(label);
+        button.addActionListener(e -> commands.get(label).execute());
         return button;
     }
 
@@ -39,5 +40,14 @@ public class MainFrame extends JFrame {
         SwingImageDisplay display = new SwingImageDisplay();
         this.imageDisplay = display;
         return display;
+    }
+
+
+    public void add(String name, Command command) {
+        commands.put(name, command);
+    }
+
+    public ImageDisplay imageDisplay() {
+        return imageDisplay;
     }
 }
