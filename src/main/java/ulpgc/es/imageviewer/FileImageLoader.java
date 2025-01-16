@@ -4,15 +4,17 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.util.Set;
 
+
 public class FileImageLoader implements ImageLoader{
     private final File[] files;
 
     public FileImageLoader(File folder) {
         this.files = folder.listFiles(isImage());
     }
-    private static final Set<String> imageExtensions = Set.of(".jpg",".png");
+
+    private static final Set<String> imageExtensions = Set.of(".jpg", ".png");
     private static FilenameFilter isImage() {
-        return (dir,name)-> imageExtensions.stream().anyMatch(name::endsWith);
+        return (dir, name) -> imageExtensions.stream().anyMatch(name::endsWith);
     }
 
     @Override

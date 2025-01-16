@@ -1,7 +1,6 @@
 package ulpgc.es.imageviewer.swing;
 
 import ulpgc.es.imageviewer.Command;
-import ulpgc.es.imageviewer.PreviousImageCommand;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,7 +14,7 @@ public class MainFrame extends JFrame {
     public MainFrame() {
         this.commands = new HashMap<>();
         setTitle("Image Viewer");
-        setSize(Toolkit.getDefaultToolkit().getScreenSize());
+        setSize(800,600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());

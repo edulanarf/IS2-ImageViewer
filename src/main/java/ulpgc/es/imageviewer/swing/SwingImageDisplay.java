@@ -22,30 +22,25 @@ public class SwingImageDisplay extends JPanel implements ImageDisplay{
 
     @Override
     public Image image() {
-        return null;
+        return this.image;
     }
 
     @Override
     public void paint(Graphics g) {
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, this.getWidth(), this.getHeight());
-        Resizer resizer = new Resizer(new Dimension(this.getWidth(), this.getHeight()));
-        Dimension resized = resizer.resize(new Dimension(bitmap.getWidth(), bitmap.getHeight()));
-        int x = (this.getWidth() - bitmap.getWidth()) / 2;
-        int y = (bitmap.getHeight() - bitmap.getHeight()) / 2;
-        g.drawImage(bitmap, x, y, null);
+        BufferedImage image = resizeImage(bitmap, 800, 600);
+        int x = (this.getWidth() - image.getWidth()) / 2;
+        int y = (this.getHeight() - image.getHeight()) / 2;
+        g.drawImage(image, x, y, null);
     }
 
-    public static class Resizer {
-        private final Dimension dimension;
-
-        public Resizer(Dimension dimension) {
-            this.dimension = dimension;
-        }
-
-        public Dimension resize(Dimension dimension) {
-            return null;
-        }
+    BufferedImage resizeImage(BufferedImage originalImage, int targetWidth, int targetHeight) {
+        BufferedImage resizedImage = new BufferedImage(targetWidth, targetHeight, BufferedImage.TYPE_INT_RGB);
+        Graphics2D graphics2D = resizedImage.createGraphics();
+        graphics2D.drawImage(originalImage, 0, 0, targetWidth, targetHeight, null);
+        graphics2D.dispose();
+        return resizedImage;
     }
 
     private BufferedImage load(String name) {
